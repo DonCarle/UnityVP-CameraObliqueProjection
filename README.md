@@ -11,7 +11,7 @@
 8. If you haven't already make sure you tracker is enabled and tracking with steamVr.
 9. Press play in unity and make sure the tracker is tracking. If it is attached and doesn't track select the VPTracker gameobject and change the index to Device 1, Device 2... etc to find which is tracking (NB. Also make sure you do this when you exit playmode as it will reset).
 ![SetIndex](https://user-images.githubusercontent.com/14940637/198255968-e4663dbd-8054-4560-928c-05174b8b5ba7.png)
-10. Take the tracker place it in the lower left corner of the screen - Hit "Set left screen tracker position". Move it to the right lower corner of the screen. Hit "Set right screen tracker position" and click save data.
+10. Take the tracker place it in the lower left corner of the PROJECTED screen - Hit "Set left screen tracker position". Move it to the right lower corner of the PROJECTED screen. Hit "Set right screen tracker position" and click save data.
 11. Leave the tracker in the lower right corner stop the playmode and hit Apply Data. Now the tracker should work and you are all ready to do some VP magic. Enjoy
 
 NB.
