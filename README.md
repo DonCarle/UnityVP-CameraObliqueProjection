@@ -4,14 +4,18 @@
 2. Download and import the VirtualProductionCameraPackage.
 3. In your scene pull in the VP prefab located in VP/Prefabs/OffaxisTracking_pf
 4. Open the VP - Vp Camera setup window located in the menu bar. 
+![VPCameraSetup](https://user-images.githubusercontent.com/14940637/198256115-ea505d33-cec4-4737-b640-f0fe69afdd39.png)
 5. If you have the newest version VPTracker and OrientationManager should self assign. Else find them manually in the prefab and add them to the dedicated spots.
 6. Measure and set the VP screen size in meters. 
 7. If the tracker is far offset on the camera add the offset here also in meters.
 8. If you haven't already make sure you tracker is enabled and tracking with steamVr.
 9. Press play in unity and make sure the tracker is tracking. If it is attached and doesn't track select the VPTracker gameobject and change the index to Device 1, Device 2... etc to find which is tracking (NB. Also make sure you do this when you exit playmode as it will reset).
+![SetIndex](https://user-images.githubusercontent.com/14940637/198255968-e4663dbd-8054-4560-928c-05174b8b5ba7.png)
 10. Take the tracker place it in the lower left corner of the screen - Hit "Set left screen tracker position". Move it to the right lower corner of the screen. Hit "Set right screen tracker position" and click save data.
 11. Leave the tracker in the lower right corner stop the playmode and hit Apply Data. Now the tracker should work and you are all ready to do some VP magic. Enjoy
 
 NB.
 Sometimes it bugs out and you might have to do the setup twice. 
 If the screen looks wrong make sure the "ProjectionPlane" GameObject scale is matchin you VP screen size in meters. If it doesn't set the gameobject manually.
+
+![VPScreen](https://user-images.githubusercontent.com/14940637/198259075-4c2529bd-4206-4be8-9ec1-cf835bc05d03.png)
